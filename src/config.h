@@ -3,14 +3,14 @@
 #include <driver/gpio.h>
 
 // WiFi credentials
-#define WIFI_SSID << YOUR_SSID >>
-#define WIFI_PSWD << YOUR_PASSWORD >>
+#define WIFI_SSID << IOT_Department >>
+#define WIFI_PSWD << qwaszxqwaszx >>
 
 // sample rate for the system
 #define SAMPLE_RATE 16000
 
 // are you using an I2S microphone - comment this if you want to use an analog mic and ADC input
-// #define USE_I2S_MIC_INPUT
+ #define USE_I2S_MIC_INPUT
 
 // I2S Microphone Settings
 
@@ -23,7 +23,7 @@
 #define I2S_MIC_SERIAL_DATA GPIO_NUM_21
 
 // Analog Microphone Settings - ADC1_CHANNEL_7 is GPIO35
-#define ADC_MIC_CHANNEL ADC1_CHANNEL_7
+//#define ADC_MIC_CHANNEL ADC1_CHANNEL_7
 
 // speaker settings
 #define USE_I2S_SPEAKER_OUTPUT
